@@ -11,17 +11,17 @@ For example,
 *  if we right click errorlevel=300
 
 #Features from cmdmenusel:
-*CmdMenuSel displays a line based menu in the console allowing the user to select a single option. The menu can be interacted with via the mouse or keyboard. The menu colors can be choosen .
-*An exit code(ErrorLevel) is returned denoting the position the selected option was specified in.
+*  CmdMenuSel displays a line based menu in the console allowing the user to select a single option. The menu can be interacted with via the mouse or keyboard. The menu colors can be choosen .
+*  An exit code(ErrorLevel) is returned denoting the position the selected option was specified in.
 
 # USAGE:
 '''CmdMenuSel 0F3F {"Text 1"} ["Text 2"] [....]   '''
 All text string are trimmed to the console width. The number of specified texts must be less than or equal to the number of lines in the console. 
-*"0F3F" denotes the colors to be used, they are four hex digits (like 0 - 9 and A - F). 
+*  "0F3F" denotes the colors to be used, they are four hex digits (like 0 - 9 and A - F). 
 
 # First two digits:
 *  background text color and foreground text color 
-#The last two numbers are the hover colors:
+# The last two numbers are the hover colors:
 *  background hover color and foreground hover color  
 
 #Note: this program supports the same colors for the entire menu. cmdmenusel2 does not support separate colors for each text, so you can use getinput.exe.
