@@ -4,10 +4,12 @@ CmdMenuSel2(v2.1)= CmdMenuSel(V1.4)+(v0.1)
 CmdMenuSel2 was written by mr1ay to get different output when right-clicking in CmdMenusel.
 
 *left click on mouse input returns errorlevel 1.
+
 *right click returns the errorlevel as 100x. 
 
 For example,
 *if we click on the 3rd text with the left mouse, errorlevel = 3. 
+
 *if we right click errorlevel=300
 
 #Features from cmdmenusel:
