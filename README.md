@@ -1,4 +1,4 @@
-# cmdmenusel2
+# Cmdmenusel2
 CmdMenuSel2(v2.1)= CmdMenuSel(V1.4)+(v0.1)
 
 CmdMenuSel2 was written by mr1ay to get different output when right-clicking in CmdMenusel.
@@ -15,13 +15,13 @@ For example,
 *  An exit code(ErrorLevel) is returned denoting the position the selected option was specified in.
 
 # USAGE:
-'''CmdMenuSel 0F3F {"Text 1"} ["Text 2"] [....]   '''
+``` CmdMenuSel 0F3F "Text 1" "Text 2" ...   ```
 All text string are trimmed to the console width. The number of specified texts must be less than or equal to the number of lines in the console. 
 *  "0F3F" denotes the colors to be used, they are four hex digits (like 0 - 9 and A - F). 
 
-# First two digits:
+First two digits:
 *  background text color and foreground text color 
-# The last two numbers are the hover colors:
+The last two numbers are the hover colors:
 *  background hover color and foreground hover color  
 
 #Note: this program supports the same colors for the entire menu. cmdmenusel2 does not support separate colors for each text, so you can use getinput.exe.
