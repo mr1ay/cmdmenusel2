@@ -25,7 +25,8 @@ First two digits:
 The last two numbers are the hover colors:
 *  background hover color and foreground hover color  
 
-## Note: this program supports the same colors for the entire menu. cmdmenusel2 does not support separate colors for each text, so you can use getinput.exe.
+## Note:
+This program supports the same colors for the entire menu. cmdmenusel2 does not support separate colors for each text, so you can use getinput.exe.
 
 See "COLOR /?" for color code listings.
 The default colors are used if the:
