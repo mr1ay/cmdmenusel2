@@ -16,6 +16,7 @@ For example,
 
 # USAGE:
 ``` CmdMenuSel 0F3F "Text 1" "Text 2" ...   ```
+
 All text string are trimmed to the console width. The number of specified texts must be less than or equal to the number of lines in the console. 
 *  "0F3F" denotes the colors to be used, they are four hex digits (like 0 - 9 and A - F). 
 
@@ -26,20 +27,20 @@ The last two numbers are the hover colors:
 
 #Note: this program supports the same colors for the entire menu. cmdmenusel2 does not support separate colors for each text, so you can use getinput.exe.
 
-See "COLOR /?" for colo[u]r code listings.
-The default colo[u]rs are used if the:
+See "COLOR /?" for color code listings.
+The default colors are used if the:
 *  String contains characters outside of 0-9,A-F or a-f.
 *  String isn't exactly four characters.
 *  Selected or unselected background and foreground colors are the same. 
-*  Selected and unselected background colo[u]rs are the same.  
+*  Selected and unselected background colors are the same.  
 
 If an error occurs the return code will be zero and a string will be set to the console error stream. 
 
-Usable input:
-Select:
+#  Usable input:
+# Select:
 * SPACE","ENTER","LEFT_CLICK","RIGHT_CLICK"  
 
-NAVIGATE:
+# NAVIGATE:
 * UP"  , "DOWN"  , "TAB"  , "SHIFT + TAB"
 * HOME"  , "END"  , "PAGE_UP" 
 * PAGE_DOWN"  , "MOUSE_HOVER"  , "SCROLL_WHEEL"
