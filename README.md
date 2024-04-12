@@ -10,11 +10,11 @@ For example,
 *  if we click on the 3rd text with the left mouse, errorlevel = 3. 
 *  if we right click errorlevel=300
 
-#Features from cmdmenusel:
+## Features from cmdmenusel:
 *  CmdMenuSel displays a line based menu in the console allowing the user to select a single option. The menu can be interacted with via the mouse or keyboard. The menu colors can be choosen .
 *  An exit code(ErrorLevel) is returned denoting the position the selected option was specified in.
 
-# USAGE:
+## USAGE:
 ``` CmdMenuSel 0F3F "Text 1" "Text 2" ...   ```
 
 All text string are trimmed to the console width. The number of specified texts must be less than or equal to the number of lines in the console. 
@@ -25,7 +25,7 @@ First two digits:
 The last two numbers are the hover colors:
 *  background hover color and foreground hover color  
 
-#Note: this program supports the same colors for the entire menu. cmdmenusel2 does not support separate colors for each text, so you can use getinput.exe.
+## Note: this program supports the same colors for the entire menu. cmdmenusel2 does not support separate colors for each text, so you can use getinput.exe.
 
 See "COLOR /?" for color code listings.
 The default colors are used if the:
@@ -36,11 +36,11 @@ The default colors are used if the:
 
 If an error occurs the return code will be zero and a string will be set to the console error stream. 
 
-#  Usable input:
-# Select:
+##  Usable input:
+## Select:
 * SPACE","ENTER","LEFT_CLICK","RIGHT_CLICK"  
 
-# NAVIGATE:
+## NAVIGATE:
 * UP"  , "DOWN"  , "TAB"  , "SHIFT + TAB"
 * HOME"  , "END"  , "PAGE_UP" 
 * PAGE_DOWN"  , "MOUSE_HOVER"  , "SCROLL_WHEEL"
